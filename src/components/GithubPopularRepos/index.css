@@ -1,0 +1,66 @@
+.repos-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Roboto';
+  padding: 20px;
+}
+.title {
+  font-family: 'Lobster';
+  color: #0f172a;
+  font-size: 45px;
+}
+.language-container {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+.repository-container {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 71px;
+  gap: 20px;
+  margin-top: 30px;
+}
+.repository-loader {
+  margin-top: 30px;
+}
+
+@media screen and (max-width: 577px) {
+  .title {
+    font-size: 28px;
+  }
+  .language-container {
+    gap: 10px;
+  }
+  .repository-container {
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 18px;
+    margin-left: -38px;
+  }
+}
+.error-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+.failure-view {
+  width: 50%;
+}
+.error-msg {
+  color: #1e293b;
+  font-weight: bold;
+  font-family: 'Bree Serif';
+  font-size: 40px;
+}
+@media screen and (max-width: 577px) {
+  .error-msg {
+    font-size: 27px;
+  }
+}

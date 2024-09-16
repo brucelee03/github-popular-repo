@@ -1,0 +1,26 @@
+.language-tab-card {
+  display: flex;
+  justify-content: center;
+}
+.tab-btn {
+  padding: 4px 16px;
+  border-width: 0;
+  background-color: transparent;
+  font-size: 18px;
+  font-weight: bold;
+  color: #0f172a;
+}
+.active-language-tab {
+  color: #0284c7;
+  border-color: #0284c7;
+  border-radius: 25px;
+  border-width: 1px;
+  background-color: #ffffff;
+}
+
+@media screen and (max-width: 577px) {
+  .tab-btn {
+    padding: 4px 12px;
+    font-size: 12px;
+  }
+}

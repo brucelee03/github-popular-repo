@@ -1,0 +1,50 @@
+.repository-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 226px;
+  border-radius: 23px;
+  padding: 20px;
+  background-color: #f8f8ff;
+}
+.repo-img {
+  width: 52%;
+  margin-bottom: 8px;
+  margin-top: 9px;
+}
+.repo-name {
+  font-size: 22px;
+  color: #e73959;
+}
+.count-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+}
+.count-card {
+  display: flex;
+  gap: 12px;
+  margin-left: 12px;
+}
+.count-img {
+  width: 20px;
+  height: 20px;
+  align-self: flex-start;
+}
+.count {
+  color: #1e293b;
+  font-size: 15px;
+  margin-top: 0;
+}
+
+@media screen and (max-width: 577px) {
+  .repository-card {
+    width: 100%;
+    border-radius: 20px;
+  }
+  .repo-name {
+    font-size: 20px;
+  }
+}
